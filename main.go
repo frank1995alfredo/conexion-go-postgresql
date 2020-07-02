@@ -65,7 +65,7 @@ func insertarUsuario() {
 	fmt.Println("Usuario insertado")
 }
 
-//funcion personas de forma masiva
+//funcion insertar personas de forma masiva
 func insertarPersona() {
 	db, err := gorm.Open("postgres", "host=localhost port=5432 user=postgres dbname=golang password=1234 sslmode=disable")
 	defer db.Close()
