@@ -60,7 +60,7 @@ func insertarUsuario() {
 		log.Fatal(err.Error())
 	}
 
-	usuario := &Usuario{Nombre: "Franklin", Email: "frank1995alfredo@gmail.com"}
+	usuario := &Usuario{Nombre: "Franklin", Email: "frank@gmail.com"}
 	db.Create(usuario)
 	fmt.Println("Usuario insertado")
 }
